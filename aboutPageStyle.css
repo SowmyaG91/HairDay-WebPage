@@ -1,0 +1,67 @@
+*{
+    background-color: blanchedalmond;
+    margin-top: .5px;
+    margin-bottom: .5px;
+    margin-left: .5px;
+    margin-right: .5px;
+
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 250px;
+    
+}
+section{
+    display: grid;
+}
+article{
+    flex: 1;
+}
+
+article > h1{
+    background-color:indigo;
+    color: darkseagreen;
+    font-size: larger;
+    font-style: oblique;
+}
+article p{
+    background-color: cornflowerblue;
+    color: black;
+    font:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:normal;
+    font-display:center;
+
+}
+.lisaImage{
+    max-width:400px;
+    max-height:400px;
+    align-items:left;
+}
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+div > img{
+    align-content:left;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.copyright{
+    color :darkorange;
+    text-decoration: underline;
+    text-align:right;
+    
+}
+.dashLine{
+    text-align: right;
+}
